@@ -6,3 +6,7 @@ spring:
     import: file:config/cfgDB.yml, file:config/cfgWEB.yml
 
 
+server:
+  error:
+    include-message: always
+    include-binding-errors: always
