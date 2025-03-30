@@ -11,7 +11,7 @@
   </parent>
   <groupId>ru.demo</groupId>
   <artifactId>test-job-travel</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1</version>
   <name>test-job-travel</name>
   <description>test-job-travel</description>
   <url/>
@@ -57,6 +57,10 @@
       <artifactId>spring-boot-devtools</artifactId>
       <scope>runtime</scope>
       <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>org.flywaydb</groupId>
+      <artifactId>flyway-core</artifactId>
     </dependency>
     <dependency>
       <groupId>org.postgresql</groupId>
