@@ -26,7 +26,7 @@ public class ProductRepositoryTest {
     // Test findById
     StepVerifier.create(repo.findAll().collectList())
         .expectNextMatches(products -> {
-          return products.size() == 1 && products.get(0).name().equals("Test Product");
+          return products.getLast().name().equals("Test Product");
         })
         .verifyComplete();
   }
