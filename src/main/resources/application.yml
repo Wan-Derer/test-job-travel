@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: test-job-travel
+
+  config:
+    import: file:config/cfgDB.yml, file:config/cfgWEB.yml
+
+
